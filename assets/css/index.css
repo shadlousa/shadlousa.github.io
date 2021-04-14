@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Didot LT Std Headline";
+    src: url("../fonts/DidotLTStd-Headline.otf");
+}
+
+@font-face {
+    font-family: "ProximaNovaRegular";
+    src: url("../fonts/ProximaNovaRegular.ttf");
+}
+
+.d {
+  display: inline;
+}
+
+.m {
+  display: none;
+}
+
+@media screen and (max-width: 375px) {
+  .d {
+    display: none;
+  }
+
+  .m {
+    display: inline;
+  }
+}
+
+a {
+ color: #000000!important; 
+ text-decoration: none!important;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+
+    background-color: #ffffff;
+    background-image: url(../img/desktop_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+  width: 300px;
+}
+
+.description {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.email {
+  padding-top: 50px;
+}
+
+.phone {
+  padding-top: 15px;
+}
+
+.address {
+  padding-top: 100px;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 375px) {
+  .address {
+    padding-bottom: 100px;
+  }
+}

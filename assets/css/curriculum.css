@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "Didot LT Std Headline";
+    src: url("../fonts/DidotLTStd-Headline.otf");
+}
+
+@font-face {
+    font-family: "ProximaNovaRegular";
+    src: url("../fonts/ProximaNovaRegular.ttf");
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+
+    background-color: #96a9b0;
+
+    color: #000000;
+}
+
+.nav-rows {
+    position: fixed;
+    top: 0.5%;
+    z-index: 1;
+    width: 100%;
+}
+
+.nav-rows a {
+    padding: 2px 8px;
+    border-radius: 7px;
+    background-color: rgba(100, 100, 100, 0.5);
+    color: #96a9b0;
+}
+
+.nav-rows a:link,
+.nav-rows a:active,
+.nav-rows a:hover,
+.nav-rows a:visited {
+    color: #96a9b0;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "ProximaNovaRegular";
+}
+
+.nav-rows a.active {
+    background-color: rgba(100, 100, 100, 0.35);
+}
+
+.cont {
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%);
+    width: 90%;
+    max-width: 1200px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .bb {
+        font-size: 1.6em;
+    }
+
+    .nav-rows {
+        z-index: 1;
+    }
+}
