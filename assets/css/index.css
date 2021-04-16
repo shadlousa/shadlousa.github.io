@@ -50,6 +50,22 @@ html, body {
     flex-direction: column;
 }
 
+.background-0 {
+  background-image: url(../img/desktop_2.jpg);
+}
+
+.background-1 {
+  background-image: url(../img/desktop_2.jpg);
+}
+
+.background-2 {
+  background-image: url(../img/desktop_2.jpg);
+}
+
+.background-3 {
+  background-image: url(../img/desktop_2.jpg);
+}
+
 img {
   width: 300px;
 }
@@ -75,5 +91,21 @@ img {
 @media screen and (max-width: 375px) {
   .address {
     padding-bottom: 100px;
+  }
+
+  .background-0 {
+    background-image: url(../img/desktop_2.jpg);
+  }
+  
+  .background-1 {
+    background-image: url(../img/desktop_2.jpg);
+  }
+  
+  .background-2 {
+    background-image: url(../img/desktop_2.jpg);
+  }
+  
+  .background-3 {
+    /*background-image: url(../img/mobile_3.jpg);*/
   }
 }
